@@ -27,3 +27,9 @@
   }
   
 }
+
+@media (width >= 1024px) {
+  :root{
+    --width-two-five-section: 40.625rem;
+  }
+}
