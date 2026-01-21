@@ -127,7 +127,7 @@
   
   text-transform: lowercase;
   background: transparent;
-  border: 1px solid transparent; 
+  border: none;
   padding: 3px 12.5px;
   text-align: center;
   outline: none;
@@ -135,21 +135,21 @@
   font-size: 18px;
   line-height: 18px;
   font-weight: 400;
-  
+  box-shadow: inset 0 0 0 1px transparent;
   font-family: 'IBM Plex Mono', monospace;
 }
 .header__theme-menu-button:hover {
-  border-color: var(--button-when-hover); 
+  box-shadow: inset 0 0 0 1px var(--button-when-hover);
 }
 .header__theme-menu-button_active,
 .header__theme-menu-button:disabled {
-  border: 1px solid var(--decor-color); 
+  box-shadow: inset 0 0 0 1px var(--decor-color);
   pointer-events: none; 
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-color: transparent transparent var(--decor-color) transparent;
+  box-shadow: inset 0 -1px 0 0 var(--decor-color);
 }
 
 /* ДАЛЬШЕ MAIN */ 
