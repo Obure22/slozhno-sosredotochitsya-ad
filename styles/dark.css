@@ -22,6 +22,6 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
-.theme-dark .header__rec{
+.theme-dark .header__rec {
   display: flex;
 }

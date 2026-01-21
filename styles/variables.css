@@ -20,7 +20,7 @@
 }
 
 @media (width >= 768px) {
-  :root{
+  :root {
     --main-first-top-margin: 60px;
     --gap_between-sections:80px;
     --header_grid_title-font-size: clamp(120px, 9.00px + 14.45vw, 157px);
@@ -29,7 +29,7 @@
 }
 
 @media (width >= 1024px) {
-  :root{
+  :root {
     --width-two-five-section: 40.625rem;
   }
 }
