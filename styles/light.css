@@ -19,8 +19,8 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
+    
     /* Дублируем переменные светлой темы */  
     --accent-color: #FF8DCB;
     --decor-color: #353430;
@@ -28,7 +28,8 @@
     --title-font-color: #FFC2E6;
     --background-image: url('../images/cover-image-light.png');
     --main-cards-text-color: #353430;
-    --button-when-hover: #32312D66;  
+    --button-when-hover: #32312D66; 
+
   }
 
   .header__rec {
